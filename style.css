@@ -1,0 +1,219 @@
+
+:root {
+    --black: #000000;
+    --blue-green: #3EB0B4;
+    --dark-black: #010000;
+    --gray: #B5B6B6;
+    --off-black: #000100;
+    --white: #ffffff;
+  }
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--off-black);
+    color: var(--gray);
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--blue-green);
+    font-size: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: var(--white);
+  }
+  h3{
+    font-size: 25px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0%;
+    background-color: var(--black);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 400px;
+    height:fit-content;
+    margin-right: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    color: var(--white);
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    color: var(--blue-green);
+  }
+  
+  .home {
+    height: 100vh;
+   
+    background-color: var(--dark-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--blue-green);
+  }
+  
+  .homecontent {
+    max-width: 600px;
+  }
+  
+  .home h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .get-btn {
+    padding: 10px 20px;
+    background-color: var(--blue-green);
+    color: var(--dark-black);
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .tutorials {
+    padding: 50px;
+    background-color: var(--black);
+  }
+  
+  .tutorials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .tutorial-cards {
+    display:inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .tutorial-card {
+    background-color: var(--dark-black);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    color: var(--blue-green);
+  }
+  .tutorials p{
+    font-size: 20px;
+  }
+  
+  .read-more {
+    background-color: var(--blue-green);
+    color: var(--dark-black);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .events {
+    padding: 50px;
+    background-color: var(--off-black);
+  }
+  
+  .event-list {
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+  }
+  
+  .event-card {
+    background-color: var(--dark-black);
+    padding: 50px;
+    border-radius: 10px;
+    flex: 1;
+    color: var(--blue-green);
+  }
+  
+  .membership {
+    padding: 150px;
+    background-color: var(--dark-black);
+    text-align: center;
+  }
+  .membership p{
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  #signupForm {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  #email {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+  }
+  
+  #signupForm button {
+    padding: 20px 30px;
+    background-color: var(--blue-green);
+    border: none;
+    color: var(--dark-black);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  #signupForm button:hover {
+    background-color: var(--white);
+  }
+  
+  .footer {
+    padding: 40px;
+    background-color: var(--black);
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    color: var(--blue-green);
+    margin: 0 5px;
+  }
+  
+  .social-links a:hover {
+    color: var(--gray);
+  }
+  
